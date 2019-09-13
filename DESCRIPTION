@@ -1,0 +1,22 @@
+Package: appfigr
+Type: Package
+Title: Appfigures R Interface
+Version: 0.0.1
+Description: Programmatic interface to the Appfigures API.
+Author@R: person("Julien", "Navarre", email = "julien.nvr[at]gmail[dot]com", role = c("aut", "cre"))
+Depends: 
+    R (>= 3.1.2)
+Imports: 
+    httr (>= 1.2.1),
+    jsonlite (>= 1.3)
+Suggests: 
+    dplyr (>= 0.5.0), 
+    readr (>= 1.0.0)
+License: MIT + file LICENSE
+URL:
+    https://github.com/lusava/appfigr
+BugReports: 
+    https://github.com/lusava/appfigr/issues
+LazyData: true
+Encoding: UTF-8
+RoxygenNote: 6.0.1
