@@ -57,5 +57,3 @@ warning_usage_rate <- function(daily_used = get_usage()$daily_used,
   if (usage_rate >= warn_rate)
     warning(paste0("You used ", round(usage_rate, 2L), "% of your daily API calls [", daily_used, "/", daily_limit, "]"))
 }
-
-if (!is.numeric() || !is.numeric())
